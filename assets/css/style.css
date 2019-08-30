@@ -1,0 +1,192 @@
+header {
+    background-color: #4aaaa5;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 10%;
+}
+
+body {
+    background-image: url("../images/memphis-mini.png");
+}
+
+h1 {
+    color: #ffffff;
+    font-family: font-family 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#header {
+    border-bottom: 2px solid #cccccc;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+nav {
+    color: #cccccc;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    margin-right: 200px;
+    background-color: #ffffff;
+}
+
+.float {
+    float: left;
+    margin-right: 15px;
+}
+
+.nav-item {
+    float: right;
+    margin: 0 10px;
+}
+
+a {
+    color: #cccccc;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.nav-items-border {
+    padding-left: 10px;
+    border-left: 2px solid #cccccc;
+}
+
+h3 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    height: 250px;
+    ;
+}
+
+footer {
+    color: #4aaaa5;
+    border-top: 10px solid #4aaaa5;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 30px;
+}
+
+section {
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    width: 70%;
+    height: 470px;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+title {
+    border-top: 10px solid #4aaaa5;
+    width: auto;
+    height: auto;
+}
+
+.middle {
+    margin: 0 auto;
+}
+
+.main-section-text {
+    margin: 15px;
+}
+
+.input-contact {
+    color: #777777;
+    width: 100%;
+}
+
+#Message {
+    height: 150px;
+}
+
+#submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.project-name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    padding-top: 10%;
+    float: left;
+}
+
+.project-pic {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.project-container {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:980px) {}
+
+@media screen and (max-width:768px) {
+    section {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:640px) {
+    section {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 100%;
+        position: static;
+        text-align: center;
+    
+    }
+    .nav-item{
+        float: unset;
+    }
+    header {
+        width: 100%;
+        height: 50%;
+        position: static;
+    }
+}
